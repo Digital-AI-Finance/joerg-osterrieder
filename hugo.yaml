@@ -1,0 +1,103 @@
+baseURL: https://digital-ai-finance.github.io/joerg-osterrieder/
+languageCode: en-us
+title: Prof. Dr. Joerg Osterrieder
+theme: PaperMod
+pagination:
+  pagerSize: 10
+params:
+  author: Joerg Osterrieder
+  description: Associate Professor of Finance and AI at University of Twente, Professor
+    at Bern Business School. Research in AI, Machine Learning, Quantitative Finance,
+    and Digital Finance.
+  keywords:
+  - Finance
+  - AI
+  - Machine Learning
+  - FinTech
+  - Quantitative Finance
+  - Digital Finance
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  profileMode:
+    enabled: true
+    title: Prof. Dr. Joerg Osterrieder
+    subtitle: Associate Professor of Finance and AI | University of Twente & Bern
+      Business School
+    imageUrl: images/profile.jpg
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+    - name: CV
+      url: cv/
+    - name: Publications
+      url: publications/
+    - name: Research
+      url: research/
+  socialIcons:
+  - name: linkedin
+    url: https://www.linkedin.com/in/joergosterrieder/
+  - name: email
+    url: mailto:joerg.osterrieder@gmail.com
+  - name: website
+    url: https://www.joergosterrieder.com
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+  label:
+    text: Prof. Dr. Joerg Osterrieder
+    icon: /images/profile.jpg
+    iconHeight: 35
+menu:
+  main:
+  - name: About
+    url: /
+    weight: 1
+  - name: CV
+    url: /cv/
+    weight: 2
+  - name: Publications
+    url: /publications/
+    weight: 3
+  - name: Research
+    url: /research/
+    weight: 4
+  - name: Teaching
+    url: /teaching/
+    weight: 5
+  - name: Industry
+    url: /industry/
+    weight: 6
+  - name: Academia
+    url: /academia/
+    weight: 7
+  - name: Talks
+    url: /talks/
+    weight: 8
+  - name: COST FinAI Wiki
+    url: /wiki/
+    weight: 9
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

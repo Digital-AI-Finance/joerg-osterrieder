@@ -1,20 +1,13 @@
-# Jekyll
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-vendor/
+# Hugo build output
+public/
+resources/_gen/
 
-# Ruby
-Gemfile.lock
-*.gem
+# Hugo cache
+.hugo_build.lock
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.env
-venv/
+# OS files
+.DS_Store
+Thumbs.db
 
 # IDE
 .idea/
@@ -22,18 +15,8 @@ venv/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Node
+node_modules/
 
 # Logs
 *.log
-crawl_log.txt
-
-# Data files (keep in repo but ignore large updates)
-# crawled_data/
-# parsed_content/
-
-# Temporary
-*.tmp
-*.bak
