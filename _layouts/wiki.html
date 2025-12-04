@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="wiki-page">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="wiki-meta">
+      <span class="category">Category: {{ page.category | capitalize }}</span>
+      {% if page.archive_date %}
+      <span class="archive-date">Archived: {{ page.archive_date | date: "%B %Y" }}</span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="wiki-content">
+    {{ content }}
+  </div>
+
+  <footer class="wiki-footer">
+    <p>
+      <a href="{{ page.wayback_url }}" target="_blank">View original on Wayback Machine</a>
+    </p>
+  </footer>
+</article>
