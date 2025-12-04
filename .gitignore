@@ -1,0 +1,39 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Ruby
+Gemfile.lock
+*.gem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+crawl_log.txt
+
+# Data files (keep in repo but ignore large updates)
+# crawled_data/
+# parsed_content/
+
+# Temporary
+*.tmp
+*.bak
