@@ -90,6 +90,24 @@ menu:
   - name: COST FinAI Wiki
     url: /wiki/
     weight: 9
+  - name: Institute for Digital Assets
+    url: /institute-for-digital-assets/
+    weight: 10
+  - name: Marketing Journal
+    url: /marketing-and-management-journal/
+    weight: 11
+  - name: ML Asset Management
+    url: /machine-learning-for-asset-management/
+    weight: 12
+  - name: Generative AI
+    url: /generative-ai-for-finance/
+    weight: 13
+  - name: Applications
+    url: /applications/
+    weight: 14
+  - name: Public Outreach
+    url: /public-outreach/
+    weight: 15
 outputs:
   home:
   - HTML
